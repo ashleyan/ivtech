@@ -7,7 +7,7 @@
 
 	body background				#fafafa
 
-	main color						#4da5f5
+	main color						#3583d7
 
 
 /*-----------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ div h1:first-child, div h2:first-child, div h3:first-child, div h4:first-child, 
 .section-title {
 	text-align: center;
 	margin-top: -10px;				/* fix for line-height spacing*/
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	}
 
 .section-title h2 {
@@ -213,7 +213,7 @@ input[type=submit] {
 	}
 
 input[type=submit]:hover {
-	background-color: #4da5f5;
+	background-color: #3583d7;
 	transform: scale(1.07);
 	-ms-transform: scale(1.07);
 	-webkit-transform: scale(1.07);
@@ -281,7 +281,7 @@ div form:first-child, form .form-row:first-child 	 {
 ---------------------------------------- */
 a {
 	text-decoration: none;
-	color: #4da5f5;
+	color: #3583d7;
 	cursor: pointer;
 	-webkit-tap-highlight-color:rgba(0,0,0,0.0);
 	}
@@ -676,11 +676,11 @@ nav#main-nav > ul > li > a  {
 
 nav#main-nav > ul > li:hover > a {
 	z-index: 48;
-	color: #4da5f5;
+	color: #3583d7;
 	}
 
 nav#main-nav > ul > li.current-menu-item > a, nav#main-nav > ul > li.current-menu-ancestor > a {
-	color: #4da5f5;
+	color: #3583d7;
 	}
 
 /* hover/active nav state for overlayed header*/
@@ -771,7 +771,7 @@ nav#menu-controls > ul > li a  {
 	}
 
 nav#menu-controls > ul > li.current-menu-item > a {
-	border-color: #4da5f5;
+	border-color: #3583d7;
 	}
 
 nav#menu-controls > ul > li.current-menu-item > a span.c-dot {
@@ -792,7 +792,7 @@ nav#menu-controls > ul > li a span.c-dot  {
 	}
 
 nav#menu-controls > ul > li a:hover span.c-dot  {
-	background: #4da5f5;
+	background: #3583d7;
 	}
 
 nav#menu-controls > ul > li a span.c-name  {
@@ -926,6 +926,9 @@ nav#responsive-nav .sub-menu li a {
 section { }
 
 .section-inner { padding-top: 100px; }
+.section-about { padding-top: 100px; padding-bottom: 50px}
+.section-events { padding-top: 100px; padding-bottom: 50px}
+
 .no-padding .section-inner {	padding-top: 0px; }
 
 .horizontalsection .horizontalinner {
@@ -964,7 +967,7 @@ section { }
 	}
 
 .portfolio-name a { color: #262626; }
-.portfolio-name a:hover { color: #4da5f5; }
+.portfolio-name a:hover { color: #3583d7; }
 
 
 /* Carousel Portfolio */
@@ -1142,7 +1145,7 @@ section { }
 	}
 
 .filter li a.active, .filter li a:hover {
-	border-color: #4da5f5;
+	border-color: #3583d7;
 	}
 
 
@@ -1196,7 +1199,7 @@ section { }
 .blog-headline .post-name a {
 	color: #262626;
 	}
-.blog-headline .post-name a:hover {	color: #4da5f5; }
+.blog-headline .post-name a:hover {	color: #3583d7; }
 
 .blog-headline .post-meta {
 	color: #999999;
@@ -1228,7 +1231,7 @@ section { }
 	}
 
 .readmore-button:hover {
-	border-color: #4da5f5;
+	border-color: #3583d7;
 	}
 
 
@@ -1477,14 +1480,14 @@ a.sr-button1:hover { border-color: #262626; background-color: #262626; color: #f
 a.sr-button2 {	border: 2px solid #262626; color: #262626;	background: transparent; }
 a.sr-button2:hover { background-color: #1a1a1a; color: #ffffff; }
 
-a.sr-button3 { border: 2px solid #4da5f5; color: #4da5f5;	background: transparent; }
-a.sr-button3:hover { background: #4da5f5; color: #ffffff; }
+a.sr-button3 { border: 2px solid #3583d7; color: #3583d7;	background: transparent; }
+a.sr-button3:hover { background: #3583d7; color: #ffffff; }
 
 a.sr-button4 {	border: 2px solid #ffffff; color: #ffffff;	background: transparent; }
 a.sr-button4:hover { background-color: #ffffff; color: #262626; }
 
-a.sr-button5 {	border: 2px solid #4da5f5; color: #ffffff;	background: #4da5f5; }
-a.sr-button5:hover { background-color: #4da5f5; color: #ffffff; }
+a.sr-button5 {	border: 2px solid #3583d7; color: #ffffff;	background: #3583d7; }
+a.sr-button5:hover { background-color: #3583d7; color: #ffffff; }
 
 a.sr-button6 {	border: 2px solid #262626; color: #ffffff;	background: #262626; }
 a.sr-button6:hover { background-color: #262626; color: #ffffff; }
@@ -1603,7 +1606,7 @@ a.sr-buttonicon.small-iconbutton {
 	}
 
 .iconbox .fa {
-	color: #4da5f5;
+	color: #3583d7;
 	}
 
 .iconbox-content {
@@ -1693,7 +1696,7 @@ a.sr-buttonicon.small-iconbutton {
 	.text-light .tabs ul.tab-nav li a { color: #ffffff; }
 
 .tabs ul.tab-nav li a:hover, .tabs ul.tab-nav li a.active {
-	border-color: #4da5f5;
+	border-color: #3583d7;
 	}
 
 .tabs .tab-container {
@@ -1748,7 +1751,7 @@ a.sr-buttonicon.small-iconbutton {
 	}
 
 .toggle-item .toggle-title:hover .toggle-icon .fa, .toggle-item .toggle-active .toggle-icon .fa {
-	color: #4da5f5 !important;
+	color: #3583d7 !important;
 	}
 
 .toggle-item .toggle-inner {
@@ -1805,7 +1808,7 @@ a.sr-buttonicon.small-iconbutton {
 	}
 
 .skill .skill-bar .skill-active {
-	background: #4da5f5;
+	background: #3583d7;
 	height: 100%;
 	position: relative;
 	border-radius: 2px;
@@ -1893,7 +1896,7 @@ a.sr-buttonicon.small-iconbutton {
 	color: #262626;
 	}
 	.text-light .price { color: #ffffff; }
-	.pricing-accent .price { color: #4da5f5; }
+	.pricing-accent .price { color: #3583d7; }
 
 .price-amount {
 	display: block;
@@ -1952,7 +1955,7 @@ a.sr-buttonicon.small-iconbutton {
 	}
 
 .widget ul li a:hover {
-	color: #4da5f5;
+	color: #3583d7;
 	}
 
 
@@ -2248,11 +2251,11 @@ a.sr-buttonicon.small-iconbutton {
 .sr-buttonicon .fa-angle-up { left: 2px; top: -2px; position:relative; }
 .sr-buttonicon .fa-angle-down { left: 2px; top: 0px; position:relative; }
 
-.xone { color: #4da5f5; }
+.xone { color: #3583d7; }
 
 /*	parallax bg sections
 ------------------------------------------------*/
-#facts.parallax-section { background:url(../uploads/parallax-bg1.jpg) center center repeat; background-size: cover; } /* index */
+#email.parallax-section { background:#3583d7 center center repeat; background-size: cover; } /* index */
 #testimonials.parallax-section { background:url(../uploads/parallax-bg2.jpg) center center repeat; background-size: cover; } /* index */
 #passionate.parallax-section { background:url(../uploads/parallax-bg3.jpg) center center repeat; background-size: cover; } /* index */
 #purchase.parallax-section { background:url(../uploads/parallax-bg3.jpg) center center repeat; background-size: cover; } /* index-headeroverlay */
@@ -2261,4 +2264,4 @@ a.sr-buttonicon.small-iconbutton {
 /*	dark bg sections
 ------------------------------------------------*/
 .service-dark { background:#262626; } /* index-videobg */
-#see-portfolio { background: #4da5f5; } /* index-videobg */
+#see-portfolio { background: #3583d7; } /* index-videobg */
